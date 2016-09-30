@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="Car_Simulator.js"></script>
+    <title>Car Simulator</title>
+  </head>
+  <body>
+    <h1>Car Simulator Webpage</h1>
+    <h2>Create Your Car</h2>
+    <input id = "make1" type="text" placeholder="Enter your make"/>
+    <input id = "model1" type="text" placeholder="Enter your model"/>
+    <input id = "year1" type="text" placeholder="Enter your year"/>
+    <input id = "submit1" type="button" value="Submit" onclick="newCar()"/>
+
+    <h3 id ="yourcar">Make, Model, Year</h3>
+
+    <h2>Let's Drive Your New Car</h2>
+    <input id = "currentSpeed" type="button" value="Slow Down!!" onclick="Brake"/>
+    <input id = "go" type="button" value="Speed up!" onclick="Accelerate"/>
+    <h2 id="newSpeed">Your Current Speed: </h2>
+
+
+  </body>
+</html>
